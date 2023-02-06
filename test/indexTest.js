@@ -8,6 +8,7 @@ describe("isPalindrome", () => {
   });
   it("returns true for 'racecar'", () => {
     expect(isPalindrome("racecar")).to.be.true;
+    console.log(isPalindrome("racecar"))
   });
   it("returns true for 'a'", () => {
     expect(isPalindrome("a")).to.be.true;
